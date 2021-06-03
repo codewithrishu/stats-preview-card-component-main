@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(233, 47%, 7%);
+    font: 14px/20px arial, san-serif;
+    font-size: 15px;
+    
+}
+.h1{
+    color:hsl(0, 0%, 100%);
+    padding: 0 0;
+     font-size: 1.6rem;
+     margin-top: 55px;
+     margin-left:75px;
+     margin-bottom: -5px;
+     font-weight:700;
+     font-family: 'Inter', sans-serif;
+}
+.h2{
+    color:hsl(0, 0%, 100%);
+    padding: 0 0;
+    font-size: 1.6rem;
+    margin-left:75px;
+    font-family: 'Inter', sans-serif;
+    
+}
+h5{
+       color:hsl(0, 0%, 100%);
+        font-family: 'Lexend Deca', sans-serif;
+          Font-size: 11px;
+          font-weight: 50;
+          text-align: center;
+         
+}
+p{
+    color:  hsla(0, 0%, 100%, 0.75);
+    margin-top: 23px;
+    Font-size: 11px;
+    text-align:left;
+    margin-left:75px;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+span{
+    color:hsl(0, 0%, 100%);
+}
+.s1,.s2,.s3{
+    float: left;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight:700;
+    margin-top: 20px;
+    
+   
+}
+.s2,.s3{
+    margin-left: 50px;
+}
+.box1{
+    display: block;
+    margin: 10% auto;
+    width: 70%;
+    height: 322px;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.box1 .box2{
+    width: 50%;
+    height: 100%;
+    background-color:hsl(244, 38%, 16%);
+    float: left;
+    text-align: left;
+   
+    
+}
+.box1 .box3{
+    width: 50%;
+    height: 100%;
+    background-color:hsl(277, 64%, 61%);
+    float: left;
+}
+img{
+    opacity: 0.5;
+}
+@media only screen and (max-width: 375px)
+{
+    .box1{
+        height: 100%;
+        background-color:hsl(277, 64%, 61%);
+        width: 80%;
+        margin-top: 20%;
+
+   }
+    .box1 .box3{
+        width: 100%;
+        height: 216px;
+        float: none;
+        background-image:url("images/image-header-desktop.jpg");
+        background-size: cover;
+        opacity: 0.5;
+
+    }
+    img{
+        width: 100%;
+        object-fit: contain;
+        opacity: 0.5;
+    }
+    .box1 .box2{
+        margin-top: 216px;
+        width: 100%;
+    }
+    .h1, .h2{
+         margin-left:0;
+        text-align: center;
+    }   
+    p{
+        margin-left: 0;
+        text-align: center;
+    
+    }
+    .s1, .s2, .s3{
+        display: block;
+        float: none;
+        text-align: center;
+    }
+    .s2,.s3{
+        margin-left: 0;
+    }
+} 
